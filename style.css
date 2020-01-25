@@ -1,6 +1,7 @@
 * {
     margin: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 html {
@@ -103,7 +104,6 @@ body {
 #contact-section {
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 1fr;
     margin: 0 auto;
     justify-items: center;
 }
@@ -119,7 +119,27 @@ body {
     width: 100%;
 }
 
+#contact-form label {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+#contact-form input,
+#contact-form textarea {
+    font-size: 2.6rem;
+    padding: 2rem;
+}
+
 #contact-form button{
     background-color: green;
-    width: 50%;
+    padding: 2rem;
+    font-size: 2.6rem;
+    color: white;
+    margin: 2rem 0;
+}
+
+#footer {
+    background-color: #222629;
+    font-size: 2.6rem;
+    color: white;
 }
