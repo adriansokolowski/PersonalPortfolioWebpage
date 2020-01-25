@@ -5,21 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Personal Portfolio Webpage</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <nav id="navbar">
-        <a href=""></a>
-        <a href="" id="profile-link"></a>
+        <div id="logo">
+            <a href="">asd</a>
+        </div>
+        <ul>
+            <li>
+                <a href="#welcome-section">Home</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact-section">Contact</a>
+            </li>
+        </ul>
+        
+        <!-- <a href="" id="profile-link"></a> -->
     </nav>
     <main>
         <section id="welcome-section">
-            <h1>Text</h1>
+            <h1>Adrian Sokołowski</h1>
+            <p id="subtitle">
+                Web Developer
+            </p>
         </section>
         <section id="projects">
-            <h2 id="project-title">
-
+            <h2 id="section-title">
+                Freecodecamp projects
             </h2>
+
+            <div id="projects-grid">
+                <a href="">
+                    <img src="assets/img/project1.jpg" class="project-image" alt="Project image description">
+                    <p class="project-title">
+                        Tribute page
+                    </p>
+                </a>
+                <a href="">
+                    <img src="assets/img/project1.jpg" class="project-image" alt="">
+                    <p class="project-title">
+                        Survey form
+                    </p>
+                </a>
+                <a href="">
+                    <img src="assets/img/project1.jpg" class="project-image" alt="">
+                    <p class="project-title">
+                        Technical documentation web page
+                    </p>
+                </a>
+                <a href="">
+                    <img src="assets/img/project1.jpg" class="project-image" alt="">
+                    <p class="project-title">
+                        Portfolio
+                    </p>
+                </a>
+                <a href="">
+                    <img src="assets/img/project1.jpg" class="project-image" alt="">
+                    <p class="project-title">
+                        blas
+                    </p>
+                </a>
+                <a href="">
+                    <img src="assets/img/project1.jpg" class="project-image" alt="">
+                    <p class="project-title">
+                        blas
+                    </p>
+                </a>
+            </div>
+
+        </section>
+
+        <section id="contact-section">
+            <form action="" id="contact-form">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="10"></textarea>
+                <button>Send</button>
+            </form>
         </section>
     </main>
+    <footer>
+        asd
+    </footer>
 </body>
 </html>
